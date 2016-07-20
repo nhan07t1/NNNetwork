@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "NNNetwork"
+  s.name         = "NNetworking"
   s.version      = "1.0.0"
-  s.summary      = "A short description of NNNetwork."
+  s.summary      = "This is a Lib for manager "
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "This is the Lib to manager Network"
 
-  s.homepage     = "https://github.com/nhan07t1/NNNetwork"
+  s.homepage     = "https://github.com/nhan07t1/NNetwoking"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/nhan07t1/NNNetwork.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/nhan07t1/NNetwoking.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,10 +89,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "NNNetwork", "NNNetwork/**/*.{h,m}"
-  s.exclude_files = "NNNetwork/Exclude"
+  s.source_files  = "NNetwoking", "NNetwoking/**/*.{h,m}"
+  s.exclude_files = "NNetwoking/Exclude"
 
-  # s.public_header_files = "NNNetwork/**/*.h"
+  # s.public_header_files = "NNetwoking/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

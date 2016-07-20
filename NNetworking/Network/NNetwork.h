@@ -11,7 +11,7 @@
 #import "Network.h"
 @import AFNetworking;
 
-@interface NNetworking : Network
+@interface NNetwork : Network
 
 @property(nonatomic,strong) AFHTTPRequestOperationManager* oManager;
 
